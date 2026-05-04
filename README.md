@@ -49,7 +49,11 @@ pip install jupyterlab
 ```
 
 **Step 2: Launch**
-Run `jupyter lab` in your terminal. Copy the URL with the `token=` and open it in an **Incognito/Private window** in your Windows browser to avoid conflicts with existing background instances.
+Run 
+```
+jupyter lab
+```
+in your terminal. Copy the URL with the `token=` and open it in an **Incognito/Private window** in your Windows browser to avoid conflicts with existing background instances.
 
 **Step 3: Train**
 Open `automatic_model_training_fixed.ipynb`, change the target wake word in the config section, and click `Run -> Run All Cells`.
@@ -98,7 +102,11 @@ pip install jupyterlab
 ```
 
 **第二步：点火启动**
-在终端运行 `jupyter lab`。必须复制输出的带有 `token=` 的长链接，并在 Windows 浏览器的**无痕模式**下打开，以防连接到旧的 Windows Jupyter 进程。
+在终端运行
+```
+jupyter lab
+```
+。必须复制输出的带有 `token=` 的长链接，并在 Windows 浏览器的**无痕模式**下打开，以防连接到旧的 Windows Jupyter 进程。
 
 **第三步：一键炼丹**
 打开 `automatic_model_training_fixed.ipynb`，在配置区域修改你的目标唤醒词，点击顶部的 `Run -> Run All Cells` 即可。
